@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>message-board</title>
+  <style type="text/css">
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .card-list-container{
+      position: relative;
+      width: 800px;
+      height: 400px;
+      background: #f5f5f5;
+      margin: 0 auto;
+      overflow: hidden;
+    }
+    .card-item{
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      width: 100px;
+      height: 100px;
+      background-color: #ccc;
+      padding: 10px;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div style="height: 400px;"></div>
+  <div class="card-list-container" id="card-list">
+    <div class="card-item">哈哈</div>
+  </div>
+  <div style="height: 400px;"></div>
+  <script type="text/javascript" src="./js/message-board.js"></script>
+</body>
+</html>
